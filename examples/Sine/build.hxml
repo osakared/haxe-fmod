@@ -1,0 +1,5 @@
+-cp src
+-cp ../../src
+-lib tink_core
+-main Main
+-cmd cp ../../thirdparty/fmodstudiohtml/api/core/examples/fmod.js* bin/
