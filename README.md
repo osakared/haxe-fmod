@@ -7,3 +7,5 @@
 See the [haxe grig documentation](https://grig.tech/)
 
 Haxe externs for fmod
+
+IGNORE FOR NOW WORK IN PROGRESS
