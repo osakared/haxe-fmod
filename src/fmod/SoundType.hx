@@ -1,0 +1,56 @@
+package fmod;
+
+// @:native('FMOD_SOUND_TYPE')
+enum abstract SoundType(Int)
+{
+    // @:native('FMOD_SOUND_TYPE_UNKNOWN')
+    var Unknown;
+    // @:native('FMOD_SOUND_TYPE_AIFF')
+    var Aiff;
+    // @:native('FMOD_SOUND_TYPE_ASF')
+    var ASF;
+    // @:native('FMOD_SOUND_TYPE_DLS')
+    var DLS;
+    // @:native('FMOD_SOUND_TYPE_FLAC')
+    var FLAC;
+    // @:native('FMOD_SOUND_TYPE_FSB')
+    var FSB;
+    // @:native('FMOD_SOUND_TYPE_IT')
+    var IT;
+    // @:native('FMOD_SOUND_TYPE_MIDI')
+    var MIDI;
+    // @:native('FMOD_SOUND_TYPE_MOD')
+    var MOD;
+    // @:native('FMOD_SOUND_TYPE_MPEG')
+    var MPEG;
+    // @:native('FMOD_SOUND_TYPE_OGGVORBIS')
+    var OggVorbis;
+    // @:native('FMOD_SOUND_TYPE_PLAYLIST')
+    var Playlist;
+    // @:native('FMOD_SOUND_TYPE_RAW')
+    var Raw;
+    // @:native('FMOD_SOUND_TYPE_S3M')
+    var S3M;
+    // @:native('FMOD_SOUND_TYPE_USER')
+    var User;
+    // @:native('FMOD_SOUND_TYPE_WAV')
+    var Wav;
+    // @:native('FMOD_SOUND_TYPE_XM')
+    var XM;
+    // @:native('FMOD_SOUND_TYPE_XMA')
+    var XMA;
+    // @:native('FMOD_SOUND_TYPE_AUDIOQUEUE')
+    var AudioQueue;
+    // @:native('FMOD_SOUND_TYPE_AT9')
+    var AT9;
+    // @:native('FMOD_SOUND_TYPE_VORBIS')
+    var Vorbis;
+    // @:native('FMOD_SOUND_TYPE_MEDIA_FOUNDATION')
+    var MediaFoundation;
+    // @:native('FMOD_SOUND_TYPE_MEDIACODEC')
+    var MediaCodec;
+    // @:native('FMOD_SOUND_TYPE_FADPCM')
+    var FADPCM;
+    // @:native('FMOD_SOUND_TYPE_MAX')
+    var Max;
+}
